@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, Roboto, serif;
+    font-size: 1.2rem;
+    
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;  
+}
+legend {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: navy;
+}
+label{
+    font-size: 1.2rem;
+    color: #000;
+    font-family: Roboto;
+    text-align: right;
+    padding-right: 1rem;
+}
+input {
+    font-size: 1.2rem;
+    font-family: Roboto;
+    padding: 0.5rem;
+}
+button {
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 7px;
+    font-size: 1.2rem;
+    background-color: navy;
+    color: #fff;
+    font-family: Roboto;
+}
+button:hover {
+    background-color: rgb(5, 175, 175);
+}
+select {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(6, 182, 182);
+    padding: 0.5rem;
+}
+textarea {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-family: Roboto;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+footer {
+    width: 650px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    color: #777;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 2fr 1fr;
+}
