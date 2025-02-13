@@ -160,7 +160,12 @@ button:hover {
     margin: 0.5rem auto;
 }
 .map {
-    display: grid
+    display: grid;
+}
+iframe {
+    width: 950px;
+    height: 450px;
+
 }
 main p {
     text-align: center;
@@ -170,6 +175,5 @@ h1 {
     text-align: center;
     background-color: var(--accent-1-color);
     opacity: 0.7;
-    color:#05853a;
     padding: 10px;
 }
